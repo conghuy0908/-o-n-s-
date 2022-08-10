@@ -8,17 +8,15 @@ function Play() {
         } else if (a != b) {
 
             if (a < b) {
-                alert("Số cần tìm lớn hơn, vui lòng nhập lại" + " " + i);
+                alert("Số cần tìm lớn hơn, vui lòng nhập lại");
 
             } else {
-                alert("Số cần tìm nhỏ hơn,vui lòng nhập lại" + " " + i);
+                alert("Số cần tìm nhỏ hơn, vui lòng nhập lại");
 
             }
         }
 
-
-
-
-
     }
+    alert("Bạn đã nhập quá 3 lần");
+    alert("Số cần tìm là : " + " " + b);
 }
