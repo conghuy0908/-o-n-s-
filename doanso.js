@@ -15,8 +15,11 @@ function Play() {
 
             }
         }
+        if (i == 2 && a!=b) {
+            alert("Bạn đã nhập quá 3 lần");
+            alert("Số cần tìm là : " + " " + b);
+        }
 
     }
-    alert("Bạn đã nhập quá 3 lần");
-    alert("Số cần tìm là : " + " " + b);
+
 }
